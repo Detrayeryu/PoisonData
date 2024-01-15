@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Data Jester",
+    "version": "1.0.1",
+    "description": "A plain text description",
+    "icons": {"16": "./data_jester.png",
+              "48": "./data_jester.png",
+              "128": "./data_jester.png"},
+    "permissions": [
+        "activeTab"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+    {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+    }
+    ]
+}
