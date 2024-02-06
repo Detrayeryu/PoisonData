@@ -1,5 +1,0 @@
-CAPTCHA keys
-
-
-local: 6Lci3pkoAAAAAFimqYlYnnCXFjb1xZ7RMdbyXPJS
-secret: 6Lci3pkoAAAAAGG7AjVb19d5sy6YXGuAg39msbhN
