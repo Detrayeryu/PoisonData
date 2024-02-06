@@ -1,0 +1,46 @@
+body {
+    min-width: 200px;
+    max-width: 250px;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.startButton{
+    color: green;
+}
+
+.stopButton{
+    color: red;
+}
+
+.checkbox-button input[type="checkbox"] {
+    display: none; /* Hide the default checkbox */
+}
+
+.checkbox-button {
+display: inline-block;
+margin-right: 10px;
+}
+
+.checkbox-button label {
+display: inline-block;
+padding: 8px 15px;
+border: 1px solid #ccc;
+border-radius: 5px;
+cursor: pointer;
+}
+
+/* Style for checked state */
+.checkbox-button input[type="checkbox"]:checked + label {
+background-color: #4CAF50;
+color: white;
+}

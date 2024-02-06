@@ -1,0 +1,4 @@
+test.email@gmail.com
+user.tester@outlook.com
+John.Doe@Googlemail.com
+Peter.Parker@hotmail.com
